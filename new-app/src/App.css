@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #aaa208;
+  color: #fff;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #444;
+}
+/* App.css */
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://th.bing.com/th?id=OIP.1LWJzrltWGhTxG_IW10GtgHaKp&w=208&h=299&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2') no-repeat center center;
+  background-size: cover;
+  background-color: #e3e6e8; /* Fallback color */
+}
+/* src/App.css */
+

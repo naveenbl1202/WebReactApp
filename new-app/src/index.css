@@ -1,0 +1,19 @@
+/* src/index.css */
+
+/* Full-screen Container */
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: url('https://static.vecteezy.com/ti/gratis-vektor/p3/124615-gratis-old-newspaper-vector.jpg') no-repeat center center; */
+  background-size: cover; /* Ensure the background covers the entire container */
+  background-color: #adcde2; /* Fallback color */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background: url('https://static.vecteezy.com/ti/gratis-vektor/p3/124615-gratis-old-newspaper-vector.jpg') no-repeat center center; */
+  background-color: #a7d3f0;
+}
